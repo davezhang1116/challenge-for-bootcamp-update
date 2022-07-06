@@ -1,0 +1,88 @@
+h1 {
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  margin-left: 5%;
+}
+h2 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 36px;
+  border-bottom: 2px solid yellow;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h3 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-left: 5%;
+  line-height: 0;
+}
+html {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(145, 145, 250);
+}
+
+p {
+  font-size: 17px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+strong {
+  font-size: 17px;
+}
+body {
+  font-family: Lora, "Times New Roman", serif;
+  font-size: 20px;
+  color: #831515;
+}
+
+.header {
+  left: 0;
+  top: 0;
+  height: 0px;
+  width: 100%;
+  padding-top: 30%;
+  background-image: url("../images/toystory4_wallpaper.jpg");
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+}
+
+#container {
+  text-align: center;
+  max-width: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.banner {
+  height: 100px;
+}
+
+.container {
+  overflow: auto;
+}
+.thumb {
+  float: left;
+}
+.thumb img {
+  display: block;
+  width: 350px;
+  height: 350px;
+  margin: 15px;
+}
+.content {
+  margin-left: 10px;
+}
+.title {
+  font-weight: bold;
+  font-size: 200%;
+}
